@@ -75,8 +75,8 @@ $app->get('/',function() use ($app){
     // Esto es lo nuevo 
     
     $pdo=$app->db;
-    $r = $pdo->query("select * from apuestas")->fetchAll(PDO::FETCH_ASSOC);
-		
+
+    $r = $pdo->query("select * from apuestas")->fetchAll(PDO::FETCH_ASSOC);		
 	$valores=array('datos'=>$r);
 	
 	// Aquí acaba lo nuevo
@@ -84,6 +84,7 @@ $app->get('/',function() use ($app){
     echo $twig->render('inicio.php',$valores);  
     
 }); 
+
 $app->get('/borrar', function() use ($app){
 	
     global $twig;

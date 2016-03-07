@@ -13,6 +13,7 @@
 {% endif %}
 
 <div class="jumbotron">
+
 	<h1>Apuesta enviada</h1>
 	Gracias <strong>{{nombre}}</strong> ya te escribire a {{email}} para verificar su cuenta y su crédito
 </div>

@@ -14,6 +14,7 @@
 
 <div class="jumbotron">
 	<h1>Buenos dias</h1>
+
 	<p class="lead">Aqui tiene las apuestas del día</p>
 	
 

@@ -16,8 +16,7 @@
 			<div class="header">
 				<ul class="nav nav-pills pull-right">
 				    <li id="inicio" class="active"><a href="/">Apuestas del dia</a></li>
-				    <li id="moreno"><a href="/contacto">apuestas</a></li>
-				   
+				    <li id="moreno"><a href="/contacto">Apuestas</a></li>
 				</ul>
 				<img src="img/logoapuesta.jpg" height="300" width="300"
 			
