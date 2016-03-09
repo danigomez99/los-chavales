@@ -34,12 +34,29 @@
 		<div>
 			<input id="element_1" name="fecha_de_nacimiento" class="element text medium" maxlength="255" value="" type="text"> 
 		</div> 
-		
-		</li>		<li id="li_5">
 			
 	<div class="form-group">
-			<label for="comentario"><a href="https://www.facebook.com/profile.php?id=100011151093308">Pinche aquí para ver los 3 partidos en los cuales podrá apostar posteriormente en esta página</a>  </a>:</label>
-			<textarea style="width:100%" rows="8" cols="50" class="form-control" id="comentario" name="apuesta"></textarea>
+			<label for="comentario"><a target="_blank" href="https://www.facebook.com/Apuesta-Y-GANA-507201259463377/?fref=ts">Pinche aquí para ver los 3 partidos en los cuales podrá apostar posteriormente en esta página</a>  </a>:</label>
+			
+			</li>		<li id="li_5">
+		<label class="description" for="element_1">Partido 1</label>
+		<div>
+			<input id="element_1" name="partido_1" class="element text medium" maxlength="255" value="" type="text"> 
+		</div> 
+		
+		</li>		<li id="li_6">
+		<label class="description" for="element_1">Partido 2</label>
+		<div>
+			<input id="element_1" name="partido_2" class="element text medium" maxlength="255" value="" type="text"> 
+		</div> 
+		
+		</li>		<li id="li_7">
+		<label class="description" for="element_1">Partido 3</label>
+		<div>
+			<input id="element_1" name="partido_3" class="element text medium" maxlength="255" value="" type="text"> 
+		</div> 
+		
+			
 		</div>
 		
 		<button type="submit" class="btn btn-default">Enviar</button>

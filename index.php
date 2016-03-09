@@ -113,12 +113,15 @@ $app->post('/guardaContacto', function() use ($app){
 		'email'=>$app->request()->post('email'),
         'fecha_de_nacimiento'=>$app->request()->post('fecha_de_nacimiento'),
         'tarjeta_de_credito'=>$app->request()->post('tarjeta_de_credito'),
-        'apuesta'=>$app->request()->post('apuesta'));
-        
-        
+        'partido_1'=>$app->request()->post('partido_1'),
+        'partido_2'=>$app->request()->post('partido_2'), 
+        'partido_3'=>$app->request()->post('partido_3'));
+	
+	
+	
 	// Guardamos en la BD
 	
-    $sql = "INSERT INTO apuestas (nombre, email, fecha_de_nacimiento, tarjeta_de_credito, apuesta) VALUES (:nombre, :email, :fecha_de_nacimiento, :tarjeta_de_credito, :apuesta)";
+    $sql = "INSERT INTO apuestas (nombre, email, fecha_de_nacimiento, tarjeta_de_credito, partido_1, partido_2, partido_3) VALUES (:nombre, :email, :fecha_de_nacimiento, :tarjeta_de_credito, :partido_1, :partido_2, :partido_3)";
     $pdo=$app->db;
 	$q = $pdo->prepare($sql);
 	$q->execute($valores);
